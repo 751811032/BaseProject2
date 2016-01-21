@@ -1,4 +1,5 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%><%@include file="../../header.jsp"%>   
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@include file="../../header.jsp"%>   
 <!-- topbar starts -->
 <div class="navbar navbar-default" role="navigation">
 
@@ -75,7 +76,6 @@
 <!-- topbar ends -->
 <div class="ch-container">
     <div class="row">
-
         <!-- left menu starts -->
         <div class="col-sm-2 col-lg-2">
             <div class="sidebar-nav">
@@ -92,8 +92,7 @@
                         </li>
                         <li><a class="ajax-link" href="ui.html"><i class="glyphicon glyphicon-eye-open"></i><span> UI Features</span></a>
                         </li>
-                        <li><a class="ajax-link" href="form.html"><i
-                                    class="glyphicon glyphicon-edit"></i><span> Forms</span></a></li>
+                        <li><a class="ajax-link" href="form.html"><i class="glyphicon glyphicon-edit"></i><span> Forms</span></a></li>
                         <li><a class="ajax-link" href="chart.html"><i class="glyphicon glyphicon-list-alt"></i><span> Charts</span></a>
                         </li>
                         <li><a class="ajax-link" href="typography.html"><i class="glyphicon glyphicon-font"></i><span> Typography</span></a>
@@ -143,7 +142,7 @@
             <div>
                 <ul class="breadcrumb">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="backend/index">Home</a>
                     </li>
                     <li>
                         <a href="#">Tables</a>
@@ -162,8 +161,8 @@
                             </div>
                         </div>
                         <ul id="myTab" class="nav nav-tabs">
-                            <li class="active"><a href="mvc/backend/team/teams?t=e" data-toggle="tab">East</a></li>
-                            <li><a href="mvc/backend/team/teams?t=w" data-toggle="tab">West</a></li>
+                            <li class="active" onclick="javascript:href('backend/team/teams?t=e')"><a href="#" data-toggle="tab">East</a></li>
+                            <li onclick="javascript:href('backend/team/teams?t=w')"><a href="#" data-toggle="tab">West</a></li>
                         </ul>
                         <div id="myTabContent" class="tab-content">
                             <div class="tab-pane fade in active" id="east">
@@ -194,15 +193,15 @@
                                                     <span class="label-warning label label-default">${item.active}</span>
                                                 </td>
                                                 <td class="center">
-                                                    <a class="btn btn-success" href="mvc/backend/team/show?teamId=${item.teamID}">
+                                                    <a class="btn btn-success" href="backend/team/show?teamId=${item.teamID}">
                                                         <i class="glyphicon glyphicon-zoom-in icon-white"></i>
                                                         View
                                                     </a>
-                                                    <a class="btn btn-info" href="mvc/backend/team/modity?teamId=${item.teamID}">
+                                                    <a class="btn btn-info" href="backend/team/modity?teamId=${item.teamID}">
                                                         <i class="glyphicon glyphicon-edit icon-white"></i>
                                                         Edit
                                                     </a>
-                                                    <a class="btn btn-danger" href="mvc/backend/team/remove?teamId=${item.teamID}">
+                                                    <a class="btn btn-danger" href="backend/team/remove?teamId=${item.teamID}">
                                                         <i class="glyphicon glyphicon-trash icon-white"></i>
                                                         Delete
                                                     </a>
@@ -242,4 +241,4 @@
         </footer>
     </div>
     <%@include file="../../footer.jsp"%>   
-
+    

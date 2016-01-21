@@ -1,4 +1,4 @@
-<%@include file="../../header.jsp"%>   
+<%@include file="../header.jsp"%>   
 <!-- topbar starts -->
 <div class="navbar navbar-default" role="navigation">
 
@@ -87,7 +87,7 @@
                         <li><a class="ajax-link" href="index.html"><i class="glyphicon glyphicon-home"></i><span> Dashboard</span></a>
                         </li>
                         <li class="nav-header">Team</li>
-                        <li><a class="ajax-link" href="backend/team/teams?t=e"><i class="glyphicon glyphicon-home"></i><span> Team</span></a>
+                        <li><a class="ajax-link" href="mvc/backend/team/teams?t=e"><i class="glyphicon glyphicon-home"></i><span> Team</span></a>
                         </li>
                         <li><a class="ajax-link" href="ui.html"><i class="glyphicon glyphicon-eye-open"></i><span> UI Features</span></a>
                         </li>
@@ -276,4 +276,4 @@
                 <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a href="http://usman.it/free-responsive-admin-template">Charisma</a></p>
             </footer>
         </div><!--/.fluid-container-->
-        <%@include file="../../footer.jsp"%>
+        <%@include file="../footer.jsp"%>
