@@ -150,7 +150,6 @@
                     </li>
                 </ul>
             </div>
-
             <div class="row">
                 <div class="box col-md-12">
                     <div class="box-inner">
@@ -158,19 +157,14 @@
                             <h2><i class="glyphicon glyphicon-user"></i> Responsive, Swipable Table</h2>
 
                             <div class="box-icon">
-                                <a href="#" class="btn btn-minimize btn-round btn-default"><i
-                                        class="glyphicon glyphicon-chevron-up"></i></a>
-                                <a href="#" class="btn btn-close btn-round btn-default"><i
-                                        class="glyphicon glyphicon-remove"></i></a>
+                                <a href="#" class="btn btn-minimize btn-round btn-default"><i class="glyphicon glyphicon-chevron-up"></i></a>
+                                <a href="#" class="btn btn-close btn-round btn-default"><i class="glyphicon glyphicon-remove"></i></a>
                             </div>
                         </div>
                         <ul id="myTab" class="nav nav-tabs">
-                            <li class="active"><a href="#east" data-toggle="tab">
-                                    East    </a>
-                            </li>
-                            <li><a href="#west" data-toggle="tab">    West    </a></li>
+                            <li class="active"><a href="mvc/backend/team/teams?t=e" data-toggle="tab">East</a></li>
+                            <li><a href="mvc/backend/team/teams?t=w" data-toggle="tab">West</a></li>
                         </ul>
-
                         <div id="myTabContent" class="tab-content">
                             <div class="tab-pane fade in active" id="east">
                                 <div class="box-content">
@@ -222,16 +216,10 @@
                         </div>
                     </div>
                 </div>
-                <!--/span-->
-                <!-- content ends -->
-            </div><!--/#content.col-md-0-->
-        </div><!--/fluid-row-->
-
+            </div>
+        </div>
         <hr>
-
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-             aria-hidden="true">
-
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -248,14 +236,10 @@
                 </div>
             </div>
         </div>
-
         <footer class="row">
-            <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://usman.it" target="_blank">Muhammad
-                    Usman</a> 2012 - 2014</p>
-
-            <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a
-                    href="http://usman.it/free-responsive-admin-template">Charisma</a></p>
+            <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://usman.it" target="_blank">Muhammad Usman</a> 2012 - 2014</p>
+            <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a href="http://usman.it/free-responsive-admin-template">Charisma</a></p>
         </footer>
-    </div><!--/.fluid-container-->
+    </div>
     <%@include file="../../footer.jsp"%>   
 
