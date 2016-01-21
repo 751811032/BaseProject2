@@ -17,9 +17,9 @@
         <table>
             <c:forEach items="${list}" var="item" varStatus="status">
             <tr>
-             <td${item.teamID}</td>
-             <td${item.key}</td>
-             <td${item.name}</td>
+             <td>${item.teamID}</td>
+             <td>${item.key}</td>
+             <td>${item.name}</td>
             </tr>
             </c:forEach>
         </table> 
