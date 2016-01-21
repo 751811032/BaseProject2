@@ -36,7 +36,7 @@
     <!-- application script for Charisma demo -->
     <script src="<%=path%>/js/charisma.js"></script>
 
-
+    <script src="<%=path%>/js/website.js" type="text/javascript"></script>
 
 
 
