@@ -42,12 +42,12 @@
     <select id="getEastTeam" resultType="TeamBean" >
         select
         <include refid="selectId" />
-        from  Team where conference = ${"Eastern"}
+        from  Team where conference = ${"'Eastern'"}
     </select>
     <!-- 列出所有西部队伍 -->
     <select id="getWestTeam" resultType="TeamBean" >
         select
         <include refid="selectId" />
-        from  Team where conference = ${"Western"}
+        from  Team where conference = ${"'Western'"}
     </select>
 </mapper>
