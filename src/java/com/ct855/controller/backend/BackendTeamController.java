@@ -29,9 +29,9 @@ public class BackendTeamController {
     public String getAllTeam(Model mode, @RequestParam("t") String t) {
         List<TeamBean> list;
         if("w".equals(t)){
-            list = teamdao.getEastTeam();
-        } else {
             list = teamdao.getWestTeam();
+        } else {
+            list = teamdao.getEastTeam();
         }
         mode.addAttribute("list", list);
         return "backend/teams";
